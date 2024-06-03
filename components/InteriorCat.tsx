@@ -10,8 +10,8 @@ import { getInteriorCollections } from '@/lib/actions'
 import first  from '@/public/images/Bedroom.png'
 import second  from '@/public/images/Designer.png'
 import third  from '@/public/images/living.png'
-import fourth  from '@/public/images/Kitchen.png'
-import fifth  from '@/public/images/Bathroom.png'
+import fourth  from '@/public/images/kitchen.png'
+import fifth  from '@/public/images/BATHROOM.png'
 
 
 const InteriorCat = async  () => {
