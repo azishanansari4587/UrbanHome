@@ -4,7 +4,7 @@ import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import Link from 'next/link'
-import { getInteriorCollections } from '@/lib/actions'
+
 
 
 import first  from '@/public/images/Bedroom.png'
