@@ -78,7 +78,7 @@ const interiorCollections = [
               <div className="rounded-md border">
                 
                 <Image
-                  src= {interiorCollection.image}
+                  src= {interiorCollection.imageSrc}
                   alt={interiorCollection.name}
                   width={300}
                   height={300}
