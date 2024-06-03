@@ -4,7 +4,6 @@ import { useState } from "react";
 import { MinusCircle, PlusCircle } from "lucide-react";
 
 
-import HeartFavorite from "./HeartFavourite";
 import useCart from "@/lib/hooks/UseCart";
 import Gallery from "./Gallery";
 import { FaShareAlt } from "react-icons/fa";
@@ -116,7 +115,7 @@ const ProductInfo = ({ productInfo }: { productInfo: ProductType }) => {
       </div>
 
       <div className="grid grid-cols-2 gap-2.5">
-        <HeartFavorite product={productInfo} />
+
         <div className="relative">
           <Button
             type="button"
