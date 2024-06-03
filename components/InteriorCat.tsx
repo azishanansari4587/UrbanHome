@@ -7,11 +7,11 @@ import Link from 'next/link'
 import { getInteriorCollections } from '@/lib/actions'
 
 
-import first  from '@/public/images/Master Bedroom Design.jpg'
-import second  from '@/public/images/Home.jpg'
-import third  from '@/public/images/Living.jpg'
-import fourth  from '@/public/images/Kitchen.jpg'
-import fifth  from '@/public/images/Bathroom.jpg'
+import first  from '@/public/images/Bedroom.png'
+import second  from '@/public/images/Designer.png'
+import third  from '@/public/images/living.png'
+import fourth  from '@/public/images/Kitchen.png'
+import fifth  from '@/public/images/Bathroom.png'
 
 
 const InteriorCat = async  () => {
