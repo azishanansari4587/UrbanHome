@@ -74,19 +74,19 @@ const interiorCollections = [
         <div className="mx-auto grid w-full max-w-screen items-center space-y-4 px-2 py-10  md:grid-cols-2 md:gap-6 md:space-y-0 lg:grid-cols-5">
           {interiorCollections.map((interiorCollection) => ( 
 
-            <Link  href={''}>
+            <Link key={interiorCollection.name} href={''}>
               <div className="rounded-md border">
                 
                 <Image
                   src= {interiorCollection.image}
-                  alt={interiorCollection.title}
+                  alt={interiorCollection.name}
                   width={300}
                   height={300}
                   className="aspect-[4/3] z-0 w-full rounded-md md:aspect-auto md:h-[500px] lg:h-[500px]"
                 />
                 
                   <div className="absolute bottom-4 left-4 bg-black p-1 rounded-md">
-                    <h1 className="text-base leading-7 font-medium text-white ">{interiorCollection.title}</h1>
+                    <h1 className="text-base leading-7 font-medium text-white ">{interiorCollection.name}</h1>
                   </div>
 
               </div>
