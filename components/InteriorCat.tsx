@@ -7,10 +7,58 @@ import Link from 'next/link'
 import { getInteriorCollections } from '@/lib/actions'
 
 
+import first  from '@/public/images/Master Bedroom Design.jpg'
+import second  from '@/public/images/Home.jpg'
+import third  from '@/public/images/Living.jpg'
+import fourth  from '@/public/images/Kitchen.jpg'
+import fifth  from '@/public/images/Bathroom.jpg'
+
 
 const InteriorCat = async  () => {
 
-  const interiorCollections = await getInteriorCollections();
+  // const interiorCollections = await getInteriorCollections();
+
+  
+const interiorCollections = [
+    {
+      name: 'Complete Home Interior',
+      description: 'Second',
+      imageSrc: second,
+      imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+      href: '#',
+    },
+    {
+      name: 'Bedroom Interior',
+      description: 'Work from home accessories',
+      imageSrc: first,
+      imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+      href: '#',
+    },
+    
+    {
+      name: 'Living Room Interior',
+      description: 'Rice',
+      imageSrc: third,
+      imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+      href: '#',
+    },
+    {
+      name: 'Kitchen Interior',
+      description: 'Work from home accessories',
+      imageSrc: fourth,
+      imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+      href: '#',
+    },
+    {
+      name: 'Washroom Interior',
+      description: 'Second',
+      imageSrc: fifth,
+      imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+      href: '#',
+    },
+    
+  ]
+
 
   return (
     <section className=' my-4'>
