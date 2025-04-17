@@ -1,33 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏠 Urban Home – Furniture & Interior Website
 
-## Getting Started
+**Urban Home** is a sleek and modern website designed for a furniture and interior design business. It features an elegant layout to showcase premium products, services, and design ideas. Built with **Next.js** and **Tailwind CSS**, it delivers high performance, smooth UI, and responsiveness across all devices.
 
-First, run the development server:
+## 🔗 Live Site
+
+👉 [https://urban-home-ten.vercel.app](https://urban-home-ten.vercel.app)
+
+## ✨ Features
+
+- 🪑 Clean and modern UI for furniture & interior services
+- 📱 Fully responsive design for mobile and desktop
+- ⚡ Fast loading performance with Next.js optimization
+- 📷 Visual presentation of products and interior categories
+- 🧩 Reusable component-based structure
+- ☁️ Deployed seamlessly on Vercel
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js
+- **Frontend:** React.js, Tailwind CSS
+- **Styling:** Tailwind CSS, custom styles
+- **Deployment:** Vercel
+- **Version Control:** Git + GitHub
+
+## 📁 Project Structure
+
+<pre>
+  ├── /public       # Static assets like images, icons, fonts, etc. 
+  ├── /components   # Reusable UI components (Navbar, Hero, Footer, etc.) 
+  ├── /pages        # Next.js pages (Home, Services, About, Contact, etc.) 
+  ├── /styles       # Global styles and Tailwind/custom CSS files 
+  ├── /data         # (Optional) JSON/JS files for service or product data
+</pre>
+
+
+## 🚀 Getting Started Locally
 
 ```bash
+git clone https://github.com/your-username/urban-home.git
+cd urban-home
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📸 Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Urban_Screenshot1](https://github.com/user-attachments/assets/f7c0a500-ab15-4b92-bae0-da63ca82a133)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
